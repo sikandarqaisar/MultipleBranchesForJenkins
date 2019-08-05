@@ -7,6 +7,6 @@ node {
  
   stage 'Docker push'
   docker.withRegistry('853219876644.dkr.ecr.us-east-2.amazonaws.com/sikandar-repo', 'ecr:us-east-2:a-cred') {
-    docker.image('sikadnar-repo').push('latest')
+    docker.image('sikadnar-repo').push('mavenApp')
   }
 }
