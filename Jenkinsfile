@@ -10,3 +10,4 @@ node {
     docker.image('sikandar-repo').push('latest')
   }
 }
+
