@@ -1,8 +1,5 @@
 node {
- 
-   environment {
-      url ="https://853219876644.dkr.ecr.us-east-2.amazonaws.com/"     
-   }
+  def url ="https://853219876644.dkr.ecr.us-east-2.amazonaws.com/"
  
   stage 'Checkout'
   git 'https://github.com/sikandarqaisar/mavenApp.git'
