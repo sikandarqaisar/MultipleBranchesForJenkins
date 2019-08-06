@@ -1,7 +1,7 @@
 node {
  
    environment {
-     def url ="https://853219876644.dkr.ecr.us-east-2.amazonaws.com/"     
+      url ="https://853219876644.dkr.ecr.us-east-2.amazonaws.com/"     
    }
  
   stage 'Checkout'
