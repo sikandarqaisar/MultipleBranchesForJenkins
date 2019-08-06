@@ -11,7 +11,7 @@ node {
   docker.build('sikandar-repo')
  
   stage 'Docker push'
-  docker.withRegistry("{url}", 'ecr:us-east-2:a-cred') {
+  docker.withRegistry('env.url', 'ecr:us-east-2:a-cred') {
     docker.image('sikandar-repo').push('spring-mvc-sample-image3')
   }
 }
