@@ -1,7 +1,7 @@
 node {
   def url ="https://853219876644.dkr.ecr.us-east-2.amazonaws.com/"
   def repoName="sikandar-repo"
-  def Tag="Maven_Image5"
+  def Tag="Maven_Image8"
   def gitPath="https://github.com/sikandarqaisar/mavenApp.git"
 
   
