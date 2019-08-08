@@ -16,3 +16,4 @@ node {
    docker.image("${repoName}").push("${Tag}")
   }
 }
+
